@@ -56,8 +56,21 @@ Raw source CSV files are intentionally excluded from GitHub. See
 Read the full, carefully qualified interpretation in
 [docs/key_findings.md](docs/key_findings.md).
 
+- Late orders had an average customer review score of 2.57 out of 5, compared with 4.29 for orders delivered on time or early.
+- For orders delivered eight or more days late, 78.3% received a low review score (1 or 2 out of 5).
+- Among single-seller orders, cross-state deliveries had a 9.4% late-delivery rate and a 12.84-day median delivery time, compared with 6.1% and 6.59 days for same-state deliveries.
+
 ## Visualisations
 
+### Customer satisfaction and delivery timing
+
+![Comparison of review scores and low-review rates for on-time and late deliveries](docs/figures/review_scores_by_delivery_result.png)
+
+![Review scores and low-review rates across delivery-timing bands](docs/figures/review_scores_by_delivery_timing.png)
+
+### Seller-customer geography
+
+![Comparison of late-delivery risk and delivery time for same-state and cross-state orders](docs/figures/seller_customer_geography_delivery_risk.png)
 ### Delivery-risk snapshot by customer state
 
 ![Lollipop chart of late-delivery rates for high-volume customer states](docs/figures/delivery_risk_lollipop_chart.png)
